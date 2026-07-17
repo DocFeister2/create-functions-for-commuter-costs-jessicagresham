@@ -46,6 +46,9 @@ double toDollars(double commutes) {
   // Edit: Multiply the commues in miles for each trip
   totalMiles = commutes * MILES_PER_COMMUTE;
 
+  // Edit: Divide the total miles by car's fuel
+  gasGallons = totalMiles / MILES_PER_GALLON;
+
   // Edit: 
 
 }
