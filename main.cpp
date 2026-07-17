@@ -42,7 +42,12 @@ double toDollars(double commutes) {
 
   // Edit: Svaes the total cost of gas
   double totalCost;
-  
+
+  // Edit: Multiply the commues in miles for each trip
+  totalMiles = commutes * MILES_PER_COMMUTE;
+
+  // Edit: 
+
 }
 
 int main() {
