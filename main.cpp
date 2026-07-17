@@ -32,7 +32,13 @@ double toDollars(double commutes) {
 }
 */
 
-// Edit
+// Edit: Converts into total dollar cost of gas.
+double toDollars(double commutes) {
+  //Edit: Saves the total number of miles driven
+  double totalMiles;
+
+  
+}
 
 int main() {
 
