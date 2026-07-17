@@ -37,7 +37,10 @@ double toDollars(double commutes) {
   //Edit: Saves the total number of miles driven
   double totalMiles;
 
-  
+  // Edit: Saves the number of gallons
+  double gasGallons;
+
+  //
 }
 
 int main() {
