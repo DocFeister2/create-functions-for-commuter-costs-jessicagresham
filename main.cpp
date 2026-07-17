@@ -40,7 +40,9 @@ double toDollars(double commutes) {
   // Edit: Saves the number of gallons
   double gasGallons;
 
-  //
+  // Edit: Svaes the total cost of gas
+  double totalCost;
+  
 }
 
 int main() {
