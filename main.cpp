@@ -49,7 +49,11 @@ double toDollars(double commutes) {
   // Edit: Divide the total miles by car's fuel
   gasGallons = totalMiles / MILES_PER_GALLON;
 
-  // Edit: 
+  // Edit: Multiply the gallons needed by the cost of each gallon.
+  totalCost = gasGallons * DOLLARS_PER_GALLON;
+
+  // Edit: Send the cost to back
+  return totalCost;
 
 }
 
